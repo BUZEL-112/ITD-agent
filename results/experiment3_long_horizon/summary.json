@@ -1,0 +1,308 @@
+{
+  "cp_sweep": {
+    "alpha": 0.05,
+    "cp_values": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "rounds": [
+      30,
+      50,
+      100,
+      200
+    ],
+    "seeds": 50,
+    "swiftness": [
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.2,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.4,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.6,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.8,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 1.0,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": 200,
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.2,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.4,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.6,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.8,
+        "swiftness_rounds_bonjour": 100,
+        "swiftness_rounds_top1": 50,
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 1.0,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": 30,
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.2,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.4,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.6,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.8,
+        "swiftness_rounds_bonjour": "",
+        "swiftness_rounds_top1": "",
+        "max_rounds_tested": 200
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 1.0,
+        "swiftness_rounds_bonjour": 200,
+        "swiftness_rounds_top1": 50,
+        "max_rounds_tested": 200
+      }
+    ],
+    "cda_at_max_rounds": [
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.2,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.9,
+        "bonjour_cda_ci_low": 0.786395,
+        "bonjour_cda_ci_high": 0.956525,
+        "top1_rate": 0.7,
+        "mean_true_pair_net_influence": 0.230879,
+        "mean_max_other_pair_net_influence": 0.007982
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.4,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.98,
+        "bonjour_cda_ci_low": 0.895043,
+        "bonjour_cda_ci_high": 0.996461,
+        "top1_rate": 0.68,
+        "mean_true_pair_net_influence": 0.350231,
+        "mean_max_other_pair_net_influence": 0.000254
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.6,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.96,
+        "bonjour_cda_ci_low": 0.865397,
+        "bonjour_cda_ci_high": 0.988961,
+        "top1_rate": 0.7,
+        "mean_true_pair_net_influence": 0.335572,
+        "mean_max_other_pair_net_influence": -0.002379
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 0.8,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 1.0,
+        "bonjour_cda_ci_low": 0.92865,
+        "bonjour_cda_ci_high": 1.0,
+        "top1_rate": 0.82,
+        "mean_true_pair_net_influence": 0.235441,
+        "mean_max_other_pair_net_influence": -0.014783
+      },
+      {
+        "condition": "grim_trigger",
+        "collusion_probability": 1.0,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.94,
+        "bonjour_cda_ci_low": 0.837827,
+        "bonjour_cda_ci_high": 0.979385,
+        "top1_rate": 1.0,
+        "mean_true_pair_net_influence": 0.235126,
+        "mean_max_other_pair_net_influence": 0.010964
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.2,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.96,
+        "bonjour_cda_ci_low": 0.865397,
+        "bonjour_cda_ci_high": 0.988961,
+        "top1_rate": 0.58,
+        "mean_true_pair_net_influence": 0.554566,
+        "mean_max_other_pair_net_influence": 0.007977
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.4,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.94,
+        "bonjour_cda_ci_low": 0.837827,
+        "bonjour_cda_ci_high": 0.979385,
+        "top1_rate": 0.68,
+        "mean_true_pair_net_influence": 1.001831,
+        "mean_max_other_pair_net_influence": 0.004864
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.6,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.96,
+        "bonjour_cda_ci_low": 0.865397,
+        "bonjour_cda_ci_high": 0.988961,
+        "top1_rate": 0.84,
+        "mean_true_pair_net_influence": 1.266639,
+        "mean_max_other_pair_net_influence": 0.009759
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 0.8,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.98,
+        "bonjour_cda_ci_low": 0.895043,
+        "bonjour_cda_ci_high": 0.996461,
+        "top1_rate": 1.0,
+        "mean_true_pair_net_influence": 1.322205,
+        "mean_max_other_pair_net_influence": 0.011493
+      },
+      {
+        "condition": "bid_rotation",
+        "collusion_probability": 1.0,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 1.0,
+        "bonjour_cda_ci_low": 0.92865,
+        "bonjour_cda_ci_high": 1.0,
+        "top1_rate": 1.0,
+        "mean_true_pair_net_influence": 0.986126,
+        "mean_max_other_pair_net_influence": 0.009101
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.2,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.64,
+        "bonjour_cda_ci_low": 0.501408,
+        "bonjour_cda_ci_high": 0.758614,
+        "top1_rate": 0.66,
+        "mean_true_pair_net_influence": 0.078309,
+        "mean_max_other_pair_net_influence": 0.002976
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.4,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.98,
+        "bonjour_cda_ci_low": 0.895043,
+        "bonjour_cda_ci_high": 0.996461,
+        "top1_rate": 0.78,
+        "mean_true_pair_net_influence": 0.294085,
+        "mean_max_other_pair_net_influence": -0.000261
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.6,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.94,
+        "bonjour_cda_ci_low": 0.837827,
+        "bonjour_cda_ci_high": 0.979385,
+        "top1_rate": 0.8,
+        "mean_true_pair_net_influence": 0.573346,
+        "mean_max_other_pair_net_influence": 0.003426
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 0.8,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.94,
+        "bonjour_cda_ci_low": 0.837827,
+        "bonjour_cda_ci_high": 0.979385,
+        "top1_rate": 0.78,
+        "mean_true_pair_net_influence": 0.954976,
+        "mean_max_other_pair_net_influence": 0.00177
+      },
+      {
+        "condition": "assistant",
+        "collusion_probability": 1.0,
+        "rounds_observed": 200,
+        "runs": 50,
+        "bonjour_cda": 0.96,
+        "bonjour_cda_ci_low": 0.865397,
+        "bonjour_cda_ci_high": 0.988961,
+        "top1_rate": 0.9,
+        "mean_true_pair_net_influence": 1.554949,
+        "mean_max_other_pair_net_influence": 0.00595
+      }
+    ]
+  }
+}

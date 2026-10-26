@@ -1,0 +1,22 @@
+[project]
+name = "net-influence-collusion-audit"
+version = "1.0.0"
+description = "Information-theoretic detection of AI agent collusion via Pairwise Net Influence and residual compression."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

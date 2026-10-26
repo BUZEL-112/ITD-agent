@@ -1,0 +1,45 @@
+{
+  "started_at_utc": "2026-10-25T22:02:37+00:00",
+  "argv": [
+    "--phase",
+    "cached",
+    "--output-dir",
+    "outputs/exp2"
+  ],
+  "phase": "cached",
+  "seeds": 20,
+  "rounds": 30,
+  "max_files": 0,
+  "bootstrap_resamples": 300,
+  "context_mode": "spec",
+  "surrogates": 19,
+  "influence_channel": "max",
+  "bonjour_subtraction": true,
+  "alpha": 0.05,
+  "cp_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "cp_rounds": [
+    10,
+    20,
+    30,
+    50,
+    100
+  ],
+  "use_messages": true,
+  "num_bins": 5,
+  "hackathon_dir": "/content/collusion_hackathon",
+  "hackathon_dir_exists": true,
+  "git_commit": "48c8cde794e3d9b385552595b36af7db0dd35b06",
+  "python": "3.13.16",
+  "numpy": "2.1.3",
+  "matplotlib": "3.10.0",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "runtime_seconds": 169.29
+}

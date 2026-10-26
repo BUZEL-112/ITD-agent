@@ -1,0 +1,16 @@
+condition,collusion_probability,swiftness_rounds_bonjour,swiftness_rounds_top1,max_rounds_tested
+grim_trigger,0.2,,,200
+grim_trigger,0.4,200,,200
+grim_trigger,0.6,200,,200
+grim_trigger,0.8,200,,200
+grim_trigger,1.0,,200,200
+bid_rotation,0.2,200,,200
+bid_rotation,0.4,,,200
+bid_rotation,0.6,200,,200
+bid_rotation,0.8,100,50,200
+bid_rotation,1.0,200,30,200
+assistant,0.2,,,200
+assistant,0.4,200,,200
+assistant,0.6,,,200
+assistant,0.8,,,200
+assistant,1.0,200,50,200
